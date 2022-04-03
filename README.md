@@ -29,7 +29,7 @@ go to route `admin/menus` and create a new menu and you will get the code of liv
 
 you can build a menu just by using this command as a livewire component
 
-```php 
+```blade 
 @livewire('menu', ['key' => "header"])
 ```
 
@@ -37,13 +37,13 @@ where `header` is a key of menu and you will get the code ready on the Table lis
 
 you can use custome view ex:
 
-```php 
+```blade 
 @livewire('menu', ['key' => "header", 'view'=> "livewire.menu"])
 ```
 
 by default we use Tailwind as a main view with this code 
 
-```php
+```blade
 @foreach ($menu as $item)
 <a class="text-gray-500" href="{{ $item['url'] }}" @if($item['blank']) target="_blank" @endif>
     <span class="flex justify-between">
