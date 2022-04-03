@@ -25,6 +25,8 @@ php artisan optimize:clear
 
 ## Usage
 
+go to route `admin/menus` and create a new menu and you will get the code of livewire component
+
 you can build a menu just by using this command as a livewire component
 
 ```php 
