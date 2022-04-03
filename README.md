@@ -16,6 +16,12 @@ load livewire component
 php artisan livewire:discover
 ```
 
+load migrations
+
+```bash
+php artisan migrate
+```
+
 and now clear cache
 
 
