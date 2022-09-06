@@ -19,8 +19,8 @@ class Menu extends Component
             $items = [];
         }
 
-        if (!empty($view)) {
-            return view($view, [
+        if (!empty($this->view)) {
+            return view($this->view, [
                 "menu" => $items
             ]);
         } else {
